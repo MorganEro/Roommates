@@ -91,6 +91,15 @@ namespace Roommates.Repositories
             }
         }
 
+        public void Delete (int Id)
+        {
+            using (SqlConnection conn = Connection)
+            {
+                conn.Open();
+
+            }
+        }
+
 
 
 
